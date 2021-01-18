@@ -19,7 +19,7 @@ setup(
     packages=find_packages(),
     include_package_data=True, # metadata 
     install_requires=read("requirements.txt"),
-    extra_require={
+    extras_require={
         "dev": read("requirements-dev.txt")
     }    
 )
